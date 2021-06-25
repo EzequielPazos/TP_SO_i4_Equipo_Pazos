@@ -1,0 +1,45 @@
+Integrantes:
+-Pazos Ezequiel
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+
+azul
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+
+amarillo
+C- ¿Qué color de fondo tiene su página en el MASTER?
+
+azul
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+
+el de alfa pq como era 1 solo no puse otro, entonces no tuve que resolver el conflicto reemplazando alguno.
+cambios al unísono:
+
+18-ALFA en TESTING en el archivo index.html agrega un <p>apellido nombre fecha y
+hora </p>
+19-BETA en TESTING en el archivo index.html agrega un <p>apellido nombre fecha y
+hora </p>
+20-GAMMA en TESTING en el archivo index.html agrega un <p>apellido nombre fecha y
+hora </p>
+21- hacen los PUSH en el siguiente orden
+primero ALFA , despues BETA y por último GAMMA
+Pregunta:
+E- ¿Algún integrante tuvo problemas al hacer el push?
+
+no
+F- ¿Qué problemas surgieron?
+
+problemas con el merge desde consola que no muestra un commit cuando se pushea por lo que queda mas ordenado si se hace desde la pagina.
+conflictos con el merge por archivos iguales o contradictorios
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución 
+adoptada?
+
+las solucion seria verificar archivo por archivo los errores del merge y elegir con que me quedo al final
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+
+se ignorarian los cambios locales hechos al repo a la hora de hacer el push
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+
+habria que hacer un merge y resulver el conflicto manualmente para que esten todos los <p>
